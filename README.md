@@ -12,3 +12,18 @@ For me I'm happy to keep all websites with my brand colours, you may wish to cha
 Using more generic variables like `--main-colour` would make sense on those occasions.
 
 Comment if you find it useful :)
+
+Atum sizes for images in the admin :)
+
+# Main logo when logged in
+266px x 66px - padding 12px x 5px = 
+266px-(12 x 2px = 24px) = 242px
+66px - (2 x 5px = 10px) = 56px
+242px x 56px;
+
+# Main Logo Small
+20px x 20px
+
+# Login Logo
+340px x 70px
+
