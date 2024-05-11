@@ -1,7 +1,3 @@
-/* File should be added here */
-/* /media/templates/administrator/atum/css/user.css */
-/* File must be called user.css */
-
 :root {
   /* Square Balloon Brand Colours */
   --blue--900: #2d3945;
@@ -21,6 +17,22 @@
   --yellow--300: #f5e7c4;
   /* End brand colours */
 
+  /* Alternately you could use something like this */
+  --main-colour: #00aeff;
+  --secondary-colour: #233a5a;
+  /* Then you would assign it using var(--main-colour); */
+  /* this might be more useful if you are styling things to your customers colours each time */
+
+  /* And a third option would be like this */
+  /* 
+    --header-logo-bg: #00aeff; 
+    --header-bg: #00aeff);
+  */
+  /* The reason I didn't choose this is because I often find it harder to work out exactly what each class does, PLUS, I often reuse the same colour in various places, so it's more work. */
+  /* Plus... I'm a big fan of self documenting code, which means you should use meaningful names.  */
+  /* Although I can understand why some people find --btn-primary-bg meaningful.  I prefer --btn-blue-bg as that is clearer what it does in my eyes */
+
+
   /* Override Joomla Atum Template Colours */
   --header-logo-bg: var(--blue--400);
   --header-bg: var(--blue--400);
@@ -33,6 +45,15 @@
   --btn-secondary-border: var(--blue--900);
   --header-item-content-bg: var(--blue--900);
   --header-item-content-jversion-color: var(--blue--900);
-  --main-nav-ul-bg: var(--blue--900);
-  /* End Joomla Overrides */
+  --main-nav-ul-bg: var(--blue--200);
+}
+
+#menu12 ul a {
+  --sidebar-item-color: var(--blue--900);
+  font-weight: 600;
+}
+
+.header .logo img {
+  width: 300px;
+  height: auto;
 }
