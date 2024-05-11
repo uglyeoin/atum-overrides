@@ -18,8 +18,10 @@
   /* End brand colours */
 
   /* Alternately you could use something like this */
+  /*
   --main-colour: #00aeff;
   --secondary-colour: #233a5a;
+  */
   /* Then you would assign it using var(--main-colour); */
   /* this might be more useful if you are styling things to your customers colours each time */
 
