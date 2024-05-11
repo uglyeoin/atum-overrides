@@ -36,6 +36,9 @@
 
 
   /* Override Joomla Atum Template Colours */
+  --template-bg-dark: var(--blue--400);
+  --template-bg-dark-70:  var(--blue--400);
+  --template-bg-dark-75: var(--blue--200);
   --header-logo-bg: var(--blue--400);
   --header-bg: var(--blue--400);
   --sidebarwrapper-bg: var(--blue--400);
@@ -50,8 +53,13 @@
   --main-nav-ul-bg: var(--blue--200);
 }
 
-#menu12 ul a {
+.sidebar-wrapper ul a {
+  font-weight: 600;
+}
+
+.sidebar-wrapper ul ul .item a {
   --sidebar-item-color: var(--blue--900);
+  color: var(--blue--900);
   font-weight: 600;
 }
 
