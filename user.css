@@ -1,0 +1,38 @@
+/* File should be added here */
+/* /media/templates/administrator/atum/css/user.css */
+/* File must be called user.css */
+
+:root {
+  /* Square Balloon Brand Colours */
+  --blue--900: #2d3945;
+  --blue--800: #233a5a;
+  --blue--700: #54667f;
+  --blue--600: #046b8d;
+  --blue--400: #00aeff;
+  --blue--200: #c3e7f3;
+
+  --pink--200: #fee0dd;
+  --pink--500: #f04c5e;
+  --pink--600: #d51d4f;
+
+  --yellow--800: #ee5d23;
+  --yellow--700: #f9a41e;
+  --yellow--400: #f5df99;
+  --yellow--300: #f5e7c4;
+  /* End brand colours */
+
+  /* Override Joomla Atum Template Colours */
+  --header-logo-bg: var(--blue--400);
+  --header-bg: var(--blue--400);
+  --sidebarwrapper-bg: var(--blue--400);
+  --main-nav-mm-active-bg: var(--blue--900);
+  --template-sidebar-bg: var(--blue--400);
+  --btn-primary-bg: var(--blue--400);
+  --btn-secondary-color: #fff;
+  --btn-secondary-bg: var(--blue--400);
+  --btn-secondary-border: var(--blue--900);
+  --header-item-content-bg: var(--blue--900);
+  --header-item-content-jversion-color: var(--blue--900);
+  --main-nav-ul-bg: var(--blue--900);
+  /* End Joomla Overrides */
+}
